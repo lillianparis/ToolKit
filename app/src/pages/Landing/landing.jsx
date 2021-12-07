@@ -3,6 +3,7 @@ import M from "materialize-css";
 import { useEffect } from "react";
 import "../Landing/landing.scss";
 import { Form, Button, Row } from "react-bootstrap"
+import SignUp from "../SignUp/index"
 
 
 // useEffect tells React to do something after render. 
@@ -39,9 +40,8 @@ const Landing = () => {
                 <Button id="b1" variant="#00695c teal darken-3" type="submit">
                   Login
                 </Button>
-                <Button variant="#00695c teal darken-3" type="submit">
-                  Sign Up
-                </Button>
+                <Button onclick="SignUp" type="button">
+         Sign Up</Button>
                 <Button variant="#00695c teal darken-3" type="submit">
                  Guest
                 </Button>
