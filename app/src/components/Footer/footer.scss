@@ -3,14 +3,15 @@
 $font-family: 'Jost', sans-serif;
 $font-family: 'Merienda', cursive;
 
-.header {
-  color: white;
-  font-family: 'Merienda', cursive;
-  text-align: center;
+
+.white-text {
+    font-family: 'Merienda', cursive !important;
 }
 
-.color {
+.container {
+    font-family: 'Merienda', cursive !important;
+}
+
+#hi {
     color: white;
-    font-family: 'Merienda', cursive;
 }
-
