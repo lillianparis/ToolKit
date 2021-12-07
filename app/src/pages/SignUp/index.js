@@ -1,6 +1,6 @@
 import React from "react";
 
-function SignUp() {
+function SignUp  () {
     return (
         <Form>
         <Row className="mb-3">

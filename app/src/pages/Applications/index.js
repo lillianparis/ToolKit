@@ -1,6 +1,6 @@
 import React from "react";
 
-function Application() {
+const Application = () => {
     return (
         <>
         <h1>hiii</h1>
