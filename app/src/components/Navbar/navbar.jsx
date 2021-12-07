@@ -8,11 +8,11 @@ function Navbar() {
 
       <nav class="#00695c teal darken-3">
       <div class="nav-wrapper" >
-        <a href="#" class="brand-logo center">Progressive Toolkit</a>
-        <ul id="nav-mobile" class="left hide-on-med-and-down">
-          <li><a href="sass.html">Suggestions</a></li>
-          <li><a href="badges.html">Contact</a></li>
-          <li><a href="collapsible.html">Apps</a></li>
+        <a href="#" class="brand-logo center" id="titlefont">Progressive Toolkit</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down" >
+          <li><a class="font" href="sass.html">Suggestions</a></li>
+          <li><a class="font" href="badges.html">Contact</a></li>
+          <li><a class="font" href="collapsible.html">Apps</a></li>
         </ul>
       </div>
     </nav>

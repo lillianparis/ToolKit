@@ -3,6 +3,10 @@
 $font-family: 'Jost', sans-serif;
 $font-family: 'Merienda', cursive;
 
-.brand-logo center {
-    font-family: 'Merienda', cursive;
+#titlefont {
+    font-family: 'Merienda', cursive !important;
+}
+
+.font {
+    font-family: 'Merienda', cursive !important;
 }
