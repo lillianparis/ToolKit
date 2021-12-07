@@ -40,7 +40,9 @@ const Landing = () => {
                 <Button id="b1" variant="#00695c teal darken-3" type="submit">
                   Login
                 </Button>
-                <Button href="../SignUp/index" variant="#00695c teal darken-3" >Sign Up</Button>
+                <a href="SignUp">
+                  <button> Login Page</button>
+                </a>
                 <Button variant="#00695c teal darken-3" type="submit">
                   Guest
                 </Button>
