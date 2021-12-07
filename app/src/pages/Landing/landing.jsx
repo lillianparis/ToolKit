@@ -40,15 +40,14 @@ const Landing = () => {
                 <Button id="b1" variant="#00695c teal darken-3" type="submit">
                   Login
                 </Button>
-                <Button onclick="SignUp" type="button">
-         Sign Up</Button>
+                <Button href="../SignUp/index" variant="#00695c teal darken-3" >Sign Up</Button>
                 <Button variant="#00695c teal darken-3" type="submit">
-                 Guest
+                  Guest
                 </Button>
               </Form>
             </Row>
 
-            </p>
+          </p>
         </div>
       </div>
       <div class="parallax-container">
