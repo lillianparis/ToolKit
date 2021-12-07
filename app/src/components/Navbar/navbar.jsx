@@ -12,7 +12,7 @@ function Navbar() {
         <ul id="nav-mobile" class="left hide-on-med-and-down" >
           <li><a class="font" href="/suggestions">Suggestions</a></li>
           <li><a class="font" href="badges.html">Contact</a></li>
-          <li><a class="font" href="collapsible.html">Apps</a></li>
+          <li><a class="font" href="/Application">Apps</a></li>
         </ul>
       </div>
     </nav>
