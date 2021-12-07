@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar/navbar';
 import Landing from "./pages/Landing/landing";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Footer from "./components/Footer/index"
 
 import Suggestions from "../src/pages/Suggestions";
 
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/about" component={Apps} /> */}
         </Switch>
       </Router>
+      <Footer />
     </>
   );
 }
