@@ -23,9 +23,29 @@ const Landing = () => {
         </div>
       </div>
       <div class="parallax-container">
-        <div class="parallax"><img alt="Image-of-tree" src="https://images.unsplash.com/photo-1638729330060-b9bafd5f9eb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"/></div>
+        <div class="parallax"><img alt="Image-of-tree" src="https://images.unsplash.com/photo-1526635563471-a02b6aa977ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"/></div>
       </div>
-        </>
+      <div class="section #6d4c41 brown darken-1">
+        <div class="row container">
+          <h2 class="header">Login or Sign Up?</h2>
+          <p class="grey-text text-darken-3 lighten-3" class="color">You can create a free account for a personalized experience. All your data will be saved. Or you can use as a guest. </p>
+        </div>
+        </div>
+        <div class="parallax-container">
+        <div class="parallax"><img alt="Image-of-tree" src="https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80"/></div>
+      </div>
+      <div class="section #6d4c41 brown darken-1">
+        <div class="row container">
+          <h2 class="header">Applications</h2>
+          <p class="grey-text text-darken-3 lighten-3" class="color">Welcome to the application picking.</p>
+        </div>
+        </div>
+        <div class="parallax-container">
+        <div class="parallax"><img alt="Image-of-tree" src="https://images.unsplash.com/photo-1596079890744-c1a0462d0975?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"/></div>
+      </div>
+      
+      </>
+  
     )
 
     
