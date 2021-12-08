@@ -53,7 +53,7 @@ const SignUp = () => {
           <Form.Check type ="checkbox"/>
           </Form.Group>
 
-          <Button variant="primary" type ="submit">
+          <Button variant="#00695c teal darken-3" type ="submit">
           Submit
           </Button>
           </Form>
