@@ -1,7 +1,9 @@
 import React from "react";
+import { Form, Row, Col, Button } from "react-bootstrap";
 
-function SignUp  () {
+const SignUp  = () => {
     return (
+      <>
         <Form>
         <Row className="mb-3">
           <Form.Group as={Col} controlId="formGridEmail">
@@ -53,6 +55,7 @@ function SignUp  () {
           Submit
         </Button>
       </Form>
+      </>
 
     )
 }

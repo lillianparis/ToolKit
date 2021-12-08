@@ -3,7 +3,8 @@ import M from "materialize-css";
 import { useEffect } from "react";
 import "../Landing/landing.scss";
 import { Form, Button, Row } from "react-bootstrap"
-import SignUp from "../SignUp/index"
+import SignUp from "../SignUp/index";
+import { Link } from "react-router-dom";
 
 
 // useEffect tells React to do something after render. 
@@ -40,9 +41,12 @@ const Landing = () => {
                 <Button id="b1" variant="#00695c teal darken-3" type="submit">
                   Login
                 </Button>
-                <a href="SignUp">
-                  <button> Login Page</button>
-                </a>
+                <ul>
+                <li><Link to="SignUp">
+                  <button>Login Page</button>
+                </Link>
+                </li>
+                </ul>
                 <Button variant="#00695c teal darken-3" type="submit">
                   Guest
                 </Button>
