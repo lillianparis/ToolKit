@@ -7,6 +7,7 @@ import { Form, Button, Row } from "react-bootstrap"
 import { Link } from "react-router-dom";
 
 
+
 // useEffect tells React to do something after render. 
 const Landing = () => {
   useEffect(() => {
@@ -43,7 +44,7 @@ const Landing = () => {
                 </Button>
                 <ul>
                 <li><Link to="SignUp">
-                  <button>SignUp</button>
+                  <Button variant="#00695c teal darken-3">SignUp</Button>
                 </Link>
                 </li>
                 </ul>
@@ -61,8 +62,13 @@ const Landing = () => {
       </div>
       <div class="section #6d4c41 brown darken-1">
         <div class="row container">
-          <h2 class="header">Login or Sign Up?</h2>
-          <p class="grey-text text-darken-3 lighten-3" class="color">You can create a free account for a personalized experience. All your data will be saved. Or you can use as a guest. </p>
+          <h2 class="header">Application Launch</h2>
+          <p class="grey-text text-darken-3 lighten-3" class="color">Choose an application to get started</p>
+          <a class="waves-effect waves-light btn-large"><i class="material-icons right">perm_contact_calendar</i>Calendar</a>
+          <a class="waves-effect waves-light btn-large"><i class="material-icons right">attach_money</i>Budget Tracker</a>
+          <a class="waves-effect waves-light btn-large"><i class="material-icons right">event_note</i>Notepad</a>
+          <a class="waves-effect waves-light btn-large"><i class="material-icons right">notifications</i>Reminders</a>
+          <a class="waves-effect waves-light btn-large"><i class="material-icons right">access_alarm</i>Timer</a>
         </div>
       </div>
       <div class="parallax-container">
@@ -70,7 +76,7 @@ const Landing = () => {
       </div>
       <div class="section #6d4c41 brown darken-1">
         <div class="row container">
-          <h2 class="header">Applications</h2>
+          <h2 class="header">Extras</h2>
           <p class="grey-text text-darken-3 lighten-3" class="color">Welcome to the application picking.</p>
         </div>
       </div>
