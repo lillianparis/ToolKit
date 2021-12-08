@@ -3,7 +3,7 @@ import M from "materialize-css";
 import { useEffect } from "react";
 import "../Landing/landing.scss";
 import { Form, Button, Row } from "react-bootstrap"
-import SignUp from "../SignUp/index";
+// import SignUp from "../SignUp/index";
 import { Link } from "react-router-dom";
 
 
@@ -43,7 +43,7 @@ const Landing = () => {
                 </Button>
                 <ul>
                 <li><Link to="SignUp">
-                  <button>Login Page</button>
+                  <button>SignUp</button>
                 </Link>
                 </li>
                 </ul>
