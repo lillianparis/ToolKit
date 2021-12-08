@@ -43,10 +43,10 @@ const Landing = () => {
                   Login
                 </Button>
                 <ul>
-                <li><Link to="SignUp">
-                  <Button variant="#00695c teal darken-3">SignUp</Button>
-                </Link>
-                </li>
+                  <li><Link to="SignUp">
+                    <Button variant="#00695c teal darken-3">SignUp</Button>
+                  </Link>
+                  </li>
                 </ul>
                 <Button variant="#00695c teal darken-3" type="submit">
                   Guest
@@ -61,14 +61,20 @@ const Landing = () => {
         <div class="parallax"><img alt="Image-of-tree" src="https://images.unsplash.com/photo-1526635563471-a02b6aa977ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" /></div>
       </div>
       <div class="section #6d4c41 brown darken-1">
-        <div class="row container">
+        <div class="row container" >
           <h2 class="header">Application Launch</h2>
           <p class="grey-text text-darken-3 lighten-3" class="color">Choose an application to get started</p>
-          <a class="waves-effect waves-light btn-large"><i class="material-icons right">perm_contact_calendar</i>Calendar</a>
-          <a class="waves-effect waves-light btn-large"><i class="material-icons right">attach_money</i>Budget Tracker</a>
-          <a class="waves-effect waves-light btn-large"><i class="material-icons right">event_note</i>Notepad</a>
-          <a class="waves-effect waves-light btn-large"><i class="material-icons right">notifications</i>Reminders</a>
-          <a class="waves-effect waves-light btn-large"><i class="material-icons right">access_alarm</i>Timer</a>
+          <div class="container">
+            <a class="waves-effect waves-light btn-large"><i class="material-icons right">perm_contact_calendar</i>Calendar</a>
+            <a class="waves-effect waves-light btn-large"><i class="material-icons right">attach_money</i>Budget Tracker</a>
+            <ul>
+              <Link to="Notepad">
+                <a class="waves-effect waves-light btn-large"><i class="material-icons right">event_note</i>Notepad</a>
+              </Link>
+            </ul>
+            <a class="waves-effect waves-light btn-large"><i class="material-icons right">notifications</i>Reminders</a>
+            <a class="waves-effect waves-light btn-large"><i class="material-icons right">access_alarm</i>Timer</a>
+          </div>
         </div>
       </div>
       <div class="parallax-container">
