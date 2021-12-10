@@ -65,15 +65,23 @@ const Landing = () => {
           <h2 class="header">Application Launch</h2>
           <p class="grey-text text-darken-3 lighten-3" class="color">Choose an application to get started</p>
           <div class="container">
-            <a class="waves-effect waves-light btn-large"><i class="material-icons right">perm_contact_calendar</i>Calendar</a>
-            <a class="waves-effect waves-light btn-large"><i class="material-icons right">attach_money</i>Budget Tracker</a>
+            <Link to="Calendar">
+              <a class="waves-effect waves-light btn-large"><i class="material-icons right">perm_contact_calendar</i>Calendar</a>
+            </Link>
+            <Link to="Budget">
+              <a class="waves-effect waves-light btn-large"><i class="material-icons right">attach_money</i>Budget Tracker</a>
+            </Link>
             <ul>
               <Link to="Notepad">
                 <a class="waves-effect waves-light btn-large"><i class="material-icons right">event_note</i>Notepad</a>
               </Link>
             </ul>
-            <a class="waves-effect waves-light btn-large"><i class="material-icons right">notifications</i>Reminders</a>
-            <a class="waves-effect waves-light btn-large"><i class="material-icons right">access_alarm</i>Timer</a>
+            <Link to="Reminders">
+              <a class="waves-effect waves-light btn-large"><i class="material-icons right">notifications</i>Reminders</a>
+            </Link>
+            <Link to="Timers">
+              <a class="waves-effect waves-light btn-large"><i class="material-icons right">access_alarm</i>Timer</a>
+            </Link>
           </div>
         </div>
       </div>
