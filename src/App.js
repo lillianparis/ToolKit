@@ -1,4 +1,5 @@
 import './App.css';
+import React from "react"
 import Navbar from './components/Navbar/navbar';
 import Landing from "./pages/Landing/landing";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";

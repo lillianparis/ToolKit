@@ -18,7 +18,7 @@ const Suggestions = () => {
             <div class="section #6d4c41 brown darken-1">
                 <div class="row container">
                     <h2 class="header">Leave a Suggestion!</h2>
-                    <p class="grey-text text-darken-3 lighten-3" class="color">  <Container>
+                    <p class="grey-text text-darken-3 lighten-3 color">  <Container>
                         <Row>
                             <Form>
                                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">

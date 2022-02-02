@@ -5,8 +5,7 @@ import "./footer.scss";
 const Footer = () => {
     return (
 
-        <footer class="page-footer" class="#00695c teal darken-3
-        ">
+        <footer class="page-footer #00695c teal darken-3">
             <div class="container">
                 <div class="row">
                     <div class="col l6 s12">
